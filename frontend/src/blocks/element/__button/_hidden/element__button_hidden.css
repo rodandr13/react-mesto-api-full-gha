@@ -1,0 +1,4 @@
+.element__button_hidden {
+  display: none;
+  visibility: hidden;
+}
