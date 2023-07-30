@@ -63,15 +63,24 @@ class Api {
     }
     return this.delete(`/cards/${cardId}/likes`);
   }
+
+  setToken() {
+    const token = localStorage.getItem('jwt');
+    if (token) {
+      this.headers['Authorization'] = `Bearer ${token}`;
+    }
+  }
 }
 
 
 const api = new Api({
   baseUrl: 'https://api.theory-web.nomoreparties.co',
   headers: {
-    'Content-Type': 'application/json'
+    'Content-Type': 'application/json',
   }
 });
+
+api.setToken();
 
 
 export default api;
