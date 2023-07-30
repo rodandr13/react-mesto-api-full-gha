@@ -52,7 +52,7 @@ class Auth {
 }
 
 const auth = new Auth({
-    baseUrl: 'https://auth.nomoreparties.co',
+    baseUrl: 'https://api.theory-web.nomoreparties.co',
     headers: {
         "Content-Type": "application/json",
     }
