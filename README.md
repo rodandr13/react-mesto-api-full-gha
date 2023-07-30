@@ -9,7 +9,7 @@
 
 ## Ссылки на проект 
 
-IP 158.160.19.216
+IP 158.160.79.4
 
 Frontend https://theory-web.nomoredomains.sbs
 
