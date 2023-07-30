@@ -2,7 +2,7 @@ const VALID_URL_EXPRESSION = /^https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.
 
 const allowedCors = [
   'https://theory-web.nomoredomains.sbs',
-  'http://api.theory-web.nomoreparties.co',
+  'https://api.theory-web.nomoreparties.co',
   'localhost:3000',
 ];
 
