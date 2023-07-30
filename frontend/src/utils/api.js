@@ -67,9 +67,8 @@ class Api {
 
 
 const api = new Api({
-  baseUrl: 'https://mesto.nomoreparties.co/v1/cohort-64',
+  baseUrl: 'https://api.theory-web.nomoreparties.co',
   headers: {
-    authorization: 'e088005e-e78f-4b2a-a43d-652e65680dd5',
     'Content-Type': 'application/json'
   }
 });
