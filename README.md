@@ -9,8 +9,8 @@
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP-адрес 158.160.19.216
 
-Frontend https://...
+Frontend https://theory-web.nomoredomains.sbs
 
-Backend https://...
+Backend https://api.theory-web.nomoreparties.co
