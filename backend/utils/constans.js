@@ -7,6 +7,10 @@ const allowedCors = [
   'http://theory-web.nomoredomains.sbs',
   'http://api.theory-web.nomoreparties.co',
   'http://localhost:3000',
+  'http://localhost:3000/',
+  'http://localhost',
+  'localhost',
+  'https://localhost:3000',
 ];
 
 const DEFAULT_ALLOWED_METHODS = 'GET,HEAD,PUT,PATCH,POST,DELETE';
