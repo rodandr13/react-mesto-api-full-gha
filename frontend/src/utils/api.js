@@ -5,9 +5,10 @@ class Api {
   }
 
   _sendRequest({ endpoint, method, body }) {
+    const jwt = localStorage.getItem('jwt');
     const options = {
       method: method,
-      headers: this.headers
+      headers: {...this.headers, 'Authorization': `Bearer ${jwt}`}
     };
     if (body) {
       options.body = body;
@@ -76,11 +77,10 @@ class Api {
 const api = new Api({
   baseUrl: 'https://api.theory-web.nomoreparties.co',
   headers: {
-    'Content-Type': 'application/json',
+    'Content-Type': 'application/json'
   }
 });
 
 api.setToken();
-
 
 export default api;
